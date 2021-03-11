@@ -1,0 +1,10 @@
+[Unit]
+Description=Tcap sniff service
+After=network.target
+
+[Service]
+ExecStart=/usr/local/bin/tcap
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
