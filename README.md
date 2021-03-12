@@ -12,6 +12,7 @@ make install_daemon
 Install:
 make install 
 
+Run as root  
 Usage:
 
 start (packets are being sniffed from now on from default iface(eth0))  
